@@ -1,0 +1,36 @@
+POST http://localhost:3100/create
+Content-Type: application/json
+
+{
+    "firstname":"sri",
+    "lastname":"T",
+    "id":101,
+    "email":"sri67@gmail",
+    "phonenumber":45755,
+    "year":3,
+    "college":"muthayammal"
+}
+
+###
+
+GET http://localhost:3100/studentGet
+
+###
+
+PUT http://localhost:3100/studentUpdate/123
+Content-Type: application/json
+
+{
+    "firstname":"karthika",
+    "lastname":"mahendra",
+    "id":123,
+    "email":"madu2004@gmail",
+    "phonenumber":4578833,
+    "year":2,
+    "college":"muthayammal"
+}
+
+
+###
+
+DELETE http://localhost:3100/delete/99
